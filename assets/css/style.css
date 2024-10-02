@@ -1,0 +1,35 @@
+:root{
+    --background: #F9F7F8;
+    --primary-btn: #00AFEF;
+    --primary-text: Script MT Bold;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background);
+}
+
+nav{
+    width: 100vw;
+    height: 30px;
+    background-color: transparent;
+}
+.navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+}
